@@ -1,0 +1,38 @@
+{
+  "name": "gestao-atendimentos-aula",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndersonOls96/gestao-atendimentos-aula.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AndersonOls96/gestao-atendimentos-aula/issues"
+  },
+  "homepage": "https://github.com/AndersonOls96/gestao-atendimentos-aula#readme",
+  "dependencies": {
+    "@fastify/swagger": "^9.6.1",
+    "@fastify/swagger-ui": "^5.2.5",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "fastify": "^5.7.2",
+    "pg": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "@types/pg": "^8.16.0",
+    "drizzle-kit": "^0.31.8",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
